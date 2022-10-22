@@ -1,1 +1,2 @@
-# project
+intro-to-git
+hello hi

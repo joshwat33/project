@@ -8,7 +8,7 @@ import os
 
 load_dotenv()
 
-app = Flask(__name__,template_folder=r"E:\miniproject - Copy\templates",static_folder=r"E:\miniproject - Copy\static")
+app = Flask(__name__,template_folder="/templates",static_folder="/static")
 CORS(app)
 
 ACCESS_TOKEN = os.getenv('your_access_token') #add your access token
